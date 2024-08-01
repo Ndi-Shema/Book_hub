@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BookList from './components/BookList';
 import BookDetail from './components/BookDetail';
 import './App.css';
@@ -12,10 +12,10 @@ const App: React.FC = () => {
           <h1>Book Hub</h1>
         </header>
         <main>
-          <Switch>
-            <Route path="/" exact component={BookList} />
-            <Route path="/book/:id" component={BookDetail} />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<BookList />} />
+            <Route path="/book/:id" element={<BookDetail />} />
+          </Routes>
         </main>
       </div>
     </Router>
