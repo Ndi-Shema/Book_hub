@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# Book Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Book Hub is a web application for discovering books. It allows users to browse, search, and filter books by various criteria. The frontend is built with React and TypeScript, while the backend is powered by Node.js and Express.
 
-## Available Scripts
+## Project Goals
 
-In the project directory, you can run:
+- Develop a user-friendly interface for browsing books.
+- Implement functionalities for filtering and searching books by genre, author, publication date, etc.
+- Utilize React and TypeScript to build a responsive and interactive frontend.
+- Design a backend API to handle book data storage and retrieval.
+- Integrate the frontend and backend for a seamless user experience.
 
-### `npm start`
+## Technical Specifications
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Frontend
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Framework:** React with TypeScript
+- **State Management:** Context API
+- **HTTP Client:** Axios
+- **Routing:** React Router
+- **UI Library:** Material-UI (optional)
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Framework:** Node.js with Express
+- **Database:** MongoDB (with Mongoose)
+- **Middleware:** CORS for handling cross-origin requests
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js and npm installed on your machine.
+- MongoDB installed locally or a MongoDB Atlas account.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend Setup
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Navigate to the backend directory:**
+   ```bash
+   cd book-hub/backend
